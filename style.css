@@ -1,0 +1,92 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-image: url("https://thumbs.dreamstime.com/b/rolos-antigos-19920949.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .container {
+    width: fit-content; 
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cfb31098;
+    text-align: center;
+    padding: 20px;
+    height: fit-content;
+    border-radius: 6px;
+    border-bottom: 3px solid; 
+    border-right: 2px solid;
+  }
+  
+  .page-title {
+    background-color: brown;
+    color: black;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: black;
+    margin-top: 5px;
+    font-weight: bolder;
+  }
+  
+  .page-logo {
+    width: 200px;
+    position: left bottom;
+    right: 0px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  label {
+    color: black;
+  }
+  
+  button {
+    color: white;
+    background-color: rgba(165, 42, 42, 0.842);
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  
+  h3 {
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  
+  p2 {
+    color: black;
+    font-weight: bolder;
+  }
+  p3 {
+    color: black;
+    font-weight: bolder;
+  }
+  p4 {
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+  }
+  

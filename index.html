@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calendário NLW </title>
+    <link rel="stylesheet" href="./style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    </head>
+
+  <h1 class="page-title">
+    Conversor de medidas
+  </h1> <br>
+  <p class="page-subtitle">
+    Converta os valores de medidas bíblicos para unidades modernas
+  </p>
+  <div class="container">
+  <p2> Conversor de Medidas </p2>
+
+  <label for="medida"> Insira o valor em Côvados </label>
+  <input type="number" id="côvado" size="2">
+  <button type="submit" onclick="ConverteCôvado()"> Converter para metros </button> <br>
+  <label for="cana"> Insira o valor em Canas </label>
+  <input type="number" id="cana" size="2">
+  <button type="submit" onclick="ConverteCana()"> Converter para metros </button> 
+  <h1 id="metro"> </h1>
+</div> <br> <br>
+<div2 class="container">
+  <p2> Conversor de Pesos </p2>
+
+  <label for="medida"> Insira o valor em Efa </label> 
+  <input type="number" id="efa" size="2">
+  <button type="submit" onclick="ConverteEfa()"> Converter para litros </button> <br>
+  <label for="gomor"> Insira o valor em Gomor </label> 
+  <input type="number" id="gomor" size="2">
+  <button type="submit" onclick="ConverteGomor()"> Converter para litros </button> 
+  <h2 id="peso"> </h2>
+</div2> <br><br>
+<div3 class="container">
+  <p3> Conversor de Líquidos </p3>
+  
+  <label for="Bato"> Insira o valor em Batos </label>
+  <input type="number" id="bato" size="2"> 
+  <button type="submit" onclick="converteBato()"> Converter para litros </button> <br>
+  <label for="him"> Insira o valor em Him </label> 
+  <input type="number" id="him" size="2"> 
+  <button type="submit" onclick="converteHim()"> Converter para litros </button> 
+  <h3 id="litro"> </h3>
+</div3> <br><br>
+
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+
+</html>
+<script src="./main.js"></script>
