@@ -19,6 +19,7 @@ body {
     border-radius: 6px;
     border-bottom: 3px solid; 
     border-right: 2px solid;
+    font-size: 12px;
   }
   
   .page-title {
@@ -63,17 +64,10 @@ body {
     padding: 4px 8px;
     border-radius: 10px;
   }
-  
-  h2 {
-    color: black;
-    font-size: 30px;
-    font-weight: bolder;
-  }
-  
-  h3 {
-    color: black;
-    font-size: 30px;
-    font-weight: bolder;
+
+  h1, h2, h3 {
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
   }
   
   p2 {
